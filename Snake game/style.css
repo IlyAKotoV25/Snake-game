@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 100px;
+}
+
+.field{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+.excel{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.snakeBody{
+    background: black;
+    background-size: cover; 
+    width: 50px;
+    height: 50px;
+    border-bottom: solid 2px white;
+    border-left:solid 2px white; 
+    border-top:solid 2px white; 
+    border-right:solid 2px white; 
+    
+}
+.head{
+    background: red;
+    background-size: cover;
+    border-radius: 25%;
+    width: 50px;
+    height: 50px;
+}
+.food{
+    background: greenyellow;
+    background-size: cover;
+    border-radius: 50%;
+}
+/*.score{
+    margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
+    display: block;
+}
